@@ -1,3 +1,7 @@
+name: test
+on:
+  push:
+    branches: [master]
 steps:
   - uses: actions/checkout@master
   - uses: denolib/setup-deno@v1.1.0
